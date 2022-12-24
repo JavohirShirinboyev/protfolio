@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Protfolio](https://github.com/JavohirShirinboyev/protfolio.git).
+This project was bootstrapped with [Protfolio](https://github.com/JavohirShirinboyev/houzing.git).
 
 ## Available Scripts
 
