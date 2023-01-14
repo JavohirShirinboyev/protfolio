@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-import { Container, Row, Col } from "reactstrap";
+import { Container} from "reactstrap";
 import { Logo, Wrapper, Content, Link } from "./styled";
 import logoImg from "../../assets/icons/logo.png";
 import { navbar } from "../../utils/navbar";
