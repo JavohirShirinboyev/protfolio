@@ -1,11 +1,11 @@
 import React from "react";
-import { Container } from "./styled";
-import Button from "../Generic/Button";
+import { Container } from "reactstrap";
+import HomeHeader from "../HomeHeader";
 
 const Home = () => {
   return (
     <Container>
-      <Button></Button>
+      <HomeHeader />
     </Container>
   );
 };

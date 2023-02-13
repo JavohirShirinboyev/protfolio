@@ -15,6 +15,10 @@ const Container = styled.button`
   :active {
     background: rgba(199, 120, 221, 0.2);
   }
+
+  @media screen and (max-width: 768px) {
+    display: ${({ display }) => (display ? `${display}` : "block")};
+  }
 `;
 
 export { Container };

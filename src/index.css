@@ -22,3 +22,26 @@ body {
   --textColor-grey: #abb2bf;
   --textColor-white: #ffffff;
 }
+
+.danger__color {
+  color: var(--textColor-danger);
+}
+
+.info {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+
+  color: var(--textColor-grey);
+}
+
+.title {
+  font-family: "Fira Code";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 42px;
+  color: var(--textColor-white);
+}
