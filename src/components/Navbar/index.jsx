@@ -26,7 +26,7 @@ const Navbar = () => {
   const navigate = useNavigate();
 
   // Navbar toggle
-
+  const [isMobile, setIsMobile] = useState(false);
   // Contacts Links Function
 
   const onClickGitHub = () => {
@@ -44,8 +44,6 @@ const Navbar = () => {
   const onClickPhoneNumber = () => {
     window.location.href = "tel:+998940076678";
   };
-
-  const [isMobile, setIsMobile] = useState(false);
 
   return (
     <nav>
