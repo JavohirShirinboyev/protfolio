@@ -3,7 +3,6 @@ import useId from "../hooks/useId";
 import Home from "../pages/Home";
 import Works from "../pages/Works";
 import About from "../pages/About";
-import Contacts from "../pages/Contacts";
 
 export const navbar = [
   {
@@ -27,14 +26,6 @@ export const navbar = [
     element: <About />,
     title: "About-me",
     path: "/about",
-    private: false,
-    hidden: false,
-  },
-  {
-    id: useId,
-    element: <Contacts />,
-    title: "Contacts",
-    path: "/contacts",
     private: false,
     hidden: false,
   },
